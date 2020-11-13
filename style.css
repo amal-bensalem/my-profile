@@ -1,0 +1,92 @@
+/* Colors and font*/
+body {
+  background: #ffcbcb;
+  color: rgb(186,85,211);
+  font-family: 'Lora', serif;
+  font-size: 28px;
+}
+
+h1{
+   color: #E97171;
+   font-family: 'Lato', sans-serif;
+   font-size: 36px;
+}
+
+h2{
+	color: #E97171;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px
+}
+a{
+	text-decoration: none;
+	color: #E97171;
+	font-weight: bold;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: #c3aed6;
+	padding: 30px;
+	box-shadow: 0 10px 30px rgba(0,0,0,1);
+	border-radius: 4px;
+	margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.shadowed{
+	box-shadow: 5px 5px 3px black;
+}
+
+@media (max-width: 760px) {
+	.container {
+	  width: 600px;
+    }
+}
+
+
+@media (max-width: 500px) {
+	.container{
+	  width: 400px;
+    }
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color:rgb(186,85,211);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
